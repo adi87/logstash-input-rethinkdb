@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.metadata = { "logstash_plugin" => "true", "logstash_group" => "input" }
 
   # Gem dependencies
-  s.add_runtime_dependency "logstash-core", '< 3.0.0', '>= 2.0.0.beta2'
+  s.add_runtime_dependency "logstash-core", '>= 2.0.0.beta2'
   s.add_runtime_dependency 'logstash-codec-plain'
   s.add_runtime_dependency 'rethinkdb', '=2.2.0.1'
   s.add_runtime_dependency 'eventmachine', '~>1.0', '>=1.0.7'
